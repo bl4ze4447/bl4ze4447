@@ -1,5 +1,5 @@
 👋 Hi, I’m @bl4ze4447
-👀 I’m interested in programming in languages like: 
+👀 I’m interested in programming with languages like: 
 
    - C++, 
    
@@ -11,14 +11,14 @@
    
    - JavaScript, 
    
-   - React, 
+   - Angular, 
    
    - mySQL;
    
    
 🌱 I’m currently learning:
 
-   - React,
+   - Angular,
    
    - mySQL,
    
