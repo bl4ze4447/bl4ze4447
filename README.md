@@ -1,35 +1,35 @@
-- 👋 Hi, I’m @bl4ze4447
-- 👀 I’m interested in programming in languages like: 
+👋 Hi, I’m @bl4ze4447
+👀 I’m interested in programming in languages like: 
 
-   C++, 
+   - C++, 
    
-   C#, 
+   - C#, 
    
-   HTML, 
+   - HTML, 
    
-   CSS, 
+   - CSS, 
    
-   JavaScript, 
+   - JavaScript, 
    
-   React, 
+   - React, 
    
-   mySQL;
+   - mySQL;
    
    
-- 🌱 I’m currently learning:
+🌱 I’m currently learning:
 
-   React,
+   - React,
    
-   mySQL,
+   - mySQL,
    
-   JavaScript;
+   - JavaScript;
    
    
-- 💞️ I’m looking to collaborate on Web Developement and Windows/Linux Applications
-- 📫 How to reach me:
+💞️ I’m looking to collaborate on Web Developement and Windows/Linux Applications
+📫 How to reach me:
 
 
-  Email: belutoni06@gmail.com
+  - Email: belutoni06@gmail.com
 
 <!---
 bl4ze4447/bl4ze4447 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
