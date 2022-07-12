@@ -26,6 +26,7 @@
    
    
 💞️ I’m looking to collaborate on Web Developement and Windows/Linux Applications
+
 📫 How to reach me:
 
 
