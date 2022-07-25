@@ -5,24 +5,16 @@
    
    - C#, 
    
-   - HTML, 
-   
-   - CSS, 
-   
-   - JavaScript, 
-   
-   - Angular, 
+   - C,
    
    - mySQL;
    
    
 🌱 I’m currently learning:
 
-   - Angular,
-   
    - mySQL,
    
-   - JavaScript;
+   - C++/C to an advanced level
    
    
 💞️ I’m looking to collaborate on Web Developement and Windows/Linux Applications
