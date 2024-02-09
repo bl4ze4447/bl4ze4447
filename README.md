@@ -1,8 +1,6 @@
 i like rust and c, c++ sometimes
 know html,css,js,react,nextjs at an intermediate level
 
-big project coming up made with rust and c
-
 contact me at belutoni06@gmail.com
 
 <!---
