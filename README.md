@@ -1,5 +1,4 @@
-i like rust and c, c++ sometimes
-know html,css,js,react,nextjs at an intermediate level
+c++ expert
 
 contact me at belutoni06@gmail.com
 
