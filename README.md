@@ -1,35 +1,47 @@
 ## Welcome to my profile
 ```cpp
+#include <iomanip>
 #include <iostream>
+#include <vector>
+
+struct Skill {
+    std::string name;
+    float       rating;
+};
 
 class programmer {
 public:
-    programmer() = default;
-    programmer(const std::string &name, const std::string &preferred_lang) {
-        _name = name;
-        _preferred_lang = preferred_lang;
+    programmer(const std::string &name, const std::string &preferred_lang, const std::vector<Skill> &skills) {
+        _name               = name;
+        _preferred_lang     = preferred_lang;
+        _skills             = skills;
     }
 
     void greet_visitor() const {
-        std::cout << "Hey, my name is " << _name << "!\n"
-                    "I love programming in " << _preferred_lang << " and petting my dog daily!\n";
-    }
+        std::cout <<    "Hey, my name is " << _name << "!\n"
+                        "I love programming in " << _preferred_lang << " and I also love petting my dog!\n\n"
+                        "I also love: \n";
 
-    static void invalid() {
-        std::cout << "Well, it sure looks like I can't make a programmer out of you...\n";
+        for (const auto& [name, rating] : _skills) {
+            std::cout << "> " << std::left << std::setw(6) << name
+                      << std::right << std::setw(4) << " (" << rating << "/10)\n";
+        }
     }
 private:
-    std::string _name;
-    std::string _preferred_lang;
+    std::string                 _name;
+    std::string                 _preferred_lang;
+    std::vector<Skill>          _skills;
 };
 
 int main(int argc, char * argv[]) {
-    if (argc != 3) {
-        programmer::invalid();
-        return 1;
-    }
+    const auto me = programmer("bl4ze", "C++",{
+            {"Rust", 7},
+            {"C", 8.5f},
+            {"C#", 7},
+            {"MySQL", 7},
+            {"ECDL", 10}
+    });
 
-    const auto me = programmer(argv[1], argv[2]);
     me.greet_visitor();
 
     return 0;
@@ -37,6 +49,15 @@ int main(int argc, char * argv[]) {
 ```
 ```powershell
 ./readme.exe bl4ze cpp
+Hey, my name is bl4ze!
+I love programming in C++ and I also love petting my dog!
+
+I also love:
+> Rust     (7/10)
+> C        (8.5/10)
+> C#       (7/10)
+> MySQL    (7/10)
+> ECDL     (10/10)
 ```
 <!---
 bl4ze4447/bl4ze4447 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
