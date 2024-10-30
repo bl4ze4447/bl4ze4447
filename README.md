@@ -46,7 +46,7 @@ int main(int argc, char * argv[]) {
     const auto me = programmer(argv[1], argv[2], {
             {"Rust",    7},
             {"C",       8.5f},
-            {"C#",      7},
+            {"CSharp",  7},
             {"MySQL",   7},
             {"ECDL",    10}
     });
@@ -63,7 +63,7 @@ I love programming in C++ and I also love petting my dog!
 I also love:
 > Rust     (7/10)
 > C        (8.5/10)
-> C#       (7/10)
+> CSharp   (7/10)
 > MySQL    (7/10)
 > ECDL     (10/10)
 ```
