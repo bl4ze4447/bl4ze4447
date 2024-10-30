@@ -27,6 +27,10 @@ public:
                       << std::right << std::setw(4) << " (" << rating << "/10)\n";
         }
     }
+
+    static void invalid() {
+        std::cout << "Well, it sure looks like I can't make a programmer out of you...\n";
+    }
 private:
     std::string                 _name;
     std::string                 _preferred_lang;
@@ -34,21 +38,25 @@ private:
 };
 
 int main(int argc, char * argv[]) {
-    const auto me = programmer("bl4ze", "C++",{
-            {"Rust", 7},
-            {"C", 8.5f},
-            {"C#", 7},
-            {"MySQL", 7},
-            {"ECDL", 10}
+    if (argc != 3) {
+        programmer::invalid();
+        return 1;
+    }
+
+    const auto me = programmer(argv[1], argv[2], {
+            {"Rust",    7},
+            {"C",       8.5f},
+            {"C#",      7},
+            {"MySQL",   7},
+            {"ECDL",    10}
     });
 
     me.greet_visitor();
-
     return 0;
 }
 ```
 ```powershell
-./readme.exe
+./readme.exe bl4ze C++
 Hey, my name is bl4ze!
 I love programming in C++ and I also love petting my dog!
 
