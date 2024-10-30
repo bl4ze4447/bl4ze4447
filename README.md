@@ -48,7 +48,7 @@ int main(int argc, char * argv[]) {
 }
 ```
 ```powershell
-./readme.exe bl4ze cpp
+./readme.exe
 Hey, my name is bl4ze!
 I love programming in C++ and I also love petting my dog!
 
