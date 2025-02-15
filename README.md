@@ -1,9 +1,10 @@
 ## Welcome
 
-I’m an 18-year-old student, born and living in Romania, with a passion for programming and sports. I primarily work with the following languages:
-- C/C++ – Intermediate
-- C# – Beginner
--	Python – Beginner
--	SwiftUI – Beginner
+Software development enthusiast with a solid foundation in C and C++, focusing on low-level programming and application development. Familiar with modular design, memory management, and cross-platform development.
 
-Beyond coding, I love reading. I’ve read The C Programming Language (2nd Edition) and also enjoy non-technical books. Right now, I’m on the second book of The Red Rising trilogy by Pierce Brown.
+My most notable projects are:
+
+* [Codename-TGV](https://github.com/bl4ze4447/Codename-TGV), basic kernel and bootloader, built with C++/NASM, in progress.
+* [Flappy Bird Clone](https://github.com/bl4ze4447/Flappy-Bird), clone of the original game, built with C/Raylib.
+* [Work-Break](https://github.com/bl4ze4447/Work-Break), windows productivity timer, built with C++/Qt Community, in progress.
+* [project-re](https://github.com/bl4ze4447/project-re), native file-manager, built with Rust/egui, abandoned, egui was a bad choice for this project.
