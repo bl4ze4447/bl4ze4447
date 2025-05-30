@@ -4,7 +4,6 @@ Software development enthusiast with a solid foundation in C and C++, focusing o
 
 My most notable projects are:
 
-* [Codename-TGV](https://github.com/bl4ze4447/Codename-TGV), basic kernel and bootloader, built with C++/NASM, in progress.
-* [Flappy Bird Clone](https://github.com/bl4ze4447/Flappy-Bird), clone of the original game, built with C/Raylib.
-* [Work-Break](https://github.com/bl4ze4447/Work-Break), windows productivity timer, built with C++/Qt Community, in progress.
-* [project-re](https://github.com/bl4ze4447/project-re), native file-manager, built with Rust/egui, abandoned, egui was a bad choice for this project.
+* [Ghiceste cuvantul](https://github.com/bl4ze4447/ghiceste_cuvantul), level-based Wordle with romanian words, developed in Next.js and Typescript.
+* [Codename-TGV](https://github.com/bl4ze4447/Codename-TGV), basic kernel and bootloader, built with C++/NASM.
+* [project-re](https://github.com/bl4ze4447/project-re), native file-manager, built with Rust/egui, abandoned due to limiations with egui.
